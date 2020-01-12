@@ -14,6 +14,8 @@
 include 'nodesList.php';
 
 header("Access-Control-Allow-Origin: *");
+header('Access-Control-Allow-Headers', 'Origin, X-requestuested-With, Content-Type, Accept');
+header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
 
 ini_set('display_errors', 0);
 ini_set('display_startup_errors', 0);
